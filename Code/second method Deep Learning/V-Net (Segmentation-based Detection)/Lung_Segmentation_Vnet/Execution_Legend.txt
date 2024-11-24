@@ -1,0 +1,9 @@
+data_preprocessing/mask_data_extraction.py : Extract segmentation mask data
+data_preprocessing/slice_splitting.py : Split the image into corresponding slices  along the depth and its masks 
+data_preprocessing/segmentation.py : Patch generation for model training
+data_preprocessing/utils.py : create csv files containing image and mask informations
+
+
+model_train.py : Train the vnet model on segmented images
+model_test.py : Test the train model on a set of segmented images
+testing_script.py : Complete pre processing pipeline of a test image received in .raw format without ground truths

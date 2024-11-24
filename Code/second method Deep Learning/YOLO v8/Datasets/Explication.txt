@@ -1,0 +1,11 @@
+Explication of the datasets used for Yolo v8. (all of them in a 70/20/10 ratio train valid test, also each slice image has a corresponding txt file serving as label.
+
+50percentData, contained the total number of nodule instances in all subsets of the dataset, but the same number of null cases, creating a 50:50 positive negative ratio.
+
+datasetFull, contained the total subset0 slices.
+
+dataset2000, contained 2000 slice from subset0 in which there were all of the TP of subset0.
+
+Explication of the dataset used for RetinaNet trial.
+
+Sub0Ret, contained all of the slices from the subset0, no labels, they were dynamically created within the model.
