@@ -1,7 +1,7 @@
 # 🫁 Lung Nodule Detection on CT Images
 
 **🚀 Authors:**  
-- **Karim Sleiman**
+- Karim Sleiman
 - A. Gimesi  
 - S. Dash  
 - J.S. Ibarra  
